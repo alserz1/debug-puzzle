@@ -6,6 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        document.addEventListener('keydown', (event) => {
+            const ltr = [114, 101, 116, 116, 101, 108].map((num) => String.fromCharCode(num)).reverse().join('');
+            if (event.code === 'Digit0') {
+                const target = document.querySelectorAll('.' + ltr)[0];
+                target.className = ltr;
+                target.textContent = 0b100;
+            }
+        });
+    </script>
     <title>Document</title>
 </head>
 
