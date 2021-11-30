@@ -1,0 +1,20 @@
+.lettersContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.letter {
+    width: 25px;
+    height: 35px;
+}
+
+.letter__closed {
+    cursor: pointer;
+    background: #000;
+    border: 1px solid #808080;
+    border-top: none;
+}
+
+.letter__closed:active {
+    background: #ccc;
+}

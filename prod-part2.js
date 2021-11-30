@@ -1,0 +1,5 @@
+(function () {
+    [114,101,116,116,101,108].map((e=>String.fromCharCode(e))).reverse().join("");window.fakeLetter2=function(){/* попробуйте подняться выше по стеку */debugger;};let e,t=0;document.addEventListener("click",(function(r){if(r.target.classList.contains(n)){0===Array.from(r.target.parentElement.children).findIndex((e=>e===r.target))&&("number"==typeof e?(clearInterval(e),e=null):e=setInterval((()=>{
+        // одна из этих функций возвращает число, это первый символ
+        window.debugObject[t](),999===t?t=0:t++}),10))}}));const n=["r","e","t","t","e","l"].reverse().join("");Object.defineProperty(window.debugObject,500,{value:()=>4,enumerable:!1}),document.addEventListener("click",(function(e){if(e.target.classList.contains(n)){if(1===Array.from(e.target.parentElement.children).findIndex((t=>t===e.target))){const t=new Event("ltr2",{bubbles:!0});t.shiftKey=e.shiftKey,e.target.dispatchEvent(t)}}}));document.addEventListener("ltr2",(function(e){e.shiftKey?(e.target.classList.remove("letter__closed"),e.target.textContent=String.fromCharCode(51)):window.fakeLetter2()}));
+}());
